@@ -1,0 +1,40 @@
+{
+  "name": "axios-crypto-checker",
+  "version": "1.0.1",
+  "description": "CLI tool to detect IOCs related to the Axios/plain-crypto-js supply chain attack.",
+  "main": "index.js",
+  "bin": {
+    "axios-crypto-checker": "index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "audit": "npm audit"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "yaml": "^2.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisgreen/axios-crypto-checker.git"
+  },
+  "keywords": [
+    "axios",
+    "crypto",
+    "supply-chain"
+  ],
+  "author": "Luis Chacón",
+  "bugs": {
+    "url": "https://github.com/luisgreen/axios-crypto-checker/issues"
+  },
+  "homepage": "https://github.com/luisgreen/axios-crypto-checker#readme"
+}
